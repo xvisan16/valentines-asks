@@ -15,7 +15,7 @@ const musicToggle = document.getElementById("music-toggle");
 let isPlaying = false;
 
 // Set a soft romantic volume
-bgm.volume = 0.35;
+bgm.volume = 1;
 
 
 // Click Envelope
@@ -95,3 +95,4 @@ musicToggle.addEventListener("click", () => {
   }
   isPlaying = !isPlaying;
 });
+
